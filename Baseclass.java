@@ -40,15 +40,15 @@ public class Baseclass {
 		return response;
 	}
 
-	public int getResStatusCode() {
+	public int getResStatusCode(Response response ) {
 		return response.statusCode();
 	}
 
-	public String getResponseBodyAsString() {
+	public String getResponseBodyAsString(Response response ) {
 		return response.asString();
 	}
 
-	public String getResponseBodyAsPrettyString() {
+	public String getResponseBodyAsPrettyString(Response response ) {
 		return response.asPrettyString();
 	}
 
